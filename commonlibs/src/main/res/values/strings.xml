@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">commonLibs</string>
+    <string name="loadding">加载中...</string>
+    <string name="no_data">没有更多数据</string>
+    <string name="network_error">网络异常</string>
+    <string name="has_not_more">没有更多</string>
+    <string name="data_error">数据异常</string>
+</resources>

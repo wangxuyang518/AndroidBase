@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="must" format="boolean"/>
+    <attr name="name" format="reference|string"/>
+    <attr name="warnText" format="reference|string"/>
+    <attr name="label" format="reference|string"/>
+    <attr name="value" format="reference|string"/>
+    <attr name="textColor" format="color|string"/>
+    <attr name="labelWidth" format="dimension|integer"/>
+    <attr name="textSize" format="dimension|integer"/>
+    <attr name="labelPaddingLeft" format="dimension|integer"/>
+    <attr name="labelPaddingTop" format="dimension|integer"/>
+    <attr name="labelPaddingRight" format="dimension|integer"/>
+    <attr name="labelPaddingBottom" format="dimension|integer"/>
+    <attr name="labelBgColor" format="reference|color"/>
+    <attr name="maxLength" format="integer"/>
+    <attr name="minLength" format="integer"/>
+    <attr name="fixedLength" format="integer"/>
+    <attr name="overLengthWarn" format="reference|string"/>
+    <attr name="lessLengthWarn" format="reference|string"/>
+    <attr name="fixedLengthWarn" format="reference|string"/>
+
+
+    <declare-styleable name="TextEditField" >
+        <attr name="must"/>
+        <attr name="name" />
+        <attr name="warnText"/>
+        <attr name="maxLength"/>
+        <attr name="minLength"/>
+        <attr name="fixedLength"/>
+        <attr name="overLengthWarn"/>
+        <attr name="lessLengthWarn"/>
+        <attr name="fixedLengthWarn"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="CheckBoxGroupField" >
+        <attr name="must"/>
+        <attr name="name" />
+        <attr name="warnText"/>
+    </declare-styleable>
+
+    <declare-styleable name="RadioGroupField" >
+        <attr name="must"/>
+        <attr name="name" />
+        <attr name="warnText"/>
+    </declare-styleable>
+
+    <declare-styleable name="ImageViewField" >
+        <attr name="must"/>
+        <attr name="name" />
+        <attr name="warnText"/>
+    </declare-styleable>
+
+    <declare-styleable name="FieldLinearlayout" >
+        <attr name="label"/>
+        <attr name="textColor" />
+        <attr name="labelWidth"/>
+        <attr name="textSize"/>
+        <attr name="labelPaddingLeft"/>
+        <attr name="labelPaddingRight"/>
+        <attr name="labelPaddingTop"/>
+        <attr name="labelPaddingBottom"/>
+        <attr name="labelBgColor"/>
+    </declare-styleable>
+
+    <declare-styleable name="CheckBoxField" >
+        <attr name="name" />
+        <attr name="value" />
+    </declare-styleable>
+
+    <declare-styleable name="RadioButtonField" >
+        <attr name="name" />
+        <attr name="value" />
+    </declare-styleable>
+
+    <declare-styleable name="SpinnerField" >
+        <attr name="name" />
+        <attr name="must" />
+        <attr name="warnText"/>
+    </declare-styleable>
+
+    <declare-styleable name="TimelineView">
+        <attr name="marker" format="color|reference"/>
+        <attr name="line" format="color|reference"/>
+        <attr name="marker_size" format="dimension"/>
+        <attr name="line_size" format="dimension"/>
+    </declare-styleable>
+
+
+
+</resources>
